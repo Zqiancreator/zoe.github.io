@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="dispatcher" method="get" >
+
+    <input type="submit">
+</form>
+<div class="LK">
+
+    解开了
+
+</div>
+<span class="LK">
+        d=====(￣▽￣*)b dean
+    </span>
+<p id="id1">
+    jkkl
+</p>
+<div class="LL">
+
+    浮起
+
+</div>
+<ul>
+    <li>1111</li>
+    <li>2222</li>
+</ul>
+<ul>
+    <li>13333</li>
+    <li>24444</li>
+</ul>
+3s跳转
+<!--<script>-->
+<!--    // setTimeout定时发生一次，setInterval定时循环-->
+<!--    // setTimeout(function()-->
+<!--    // {-->
+<!--    //     location.href="https://www.microsoft.com";-->
+<!--    //-->
+<!--    // },3000);-->
+<!--    // setTimeout(function()-->
+<!--    // {-->
+<!--    //     history.back;-->
+<!--    // },3000);-->
+<!--    // var a=document.getElementById("id1");-->
+<!--    // alert(a);-->
+<!--    // a.innerHTML="个别";-->
+<!--</script>-->
+<div id="te">
+    <input v-model="username">
+    {{username}}
+</div>
+<script src="js/vue.js"></script>
+<script>
+    new Vue({
+        el:"#te",
+        data(){
+            return {
+                username: ""
+            }
+        }
+    });
+</script>
+
+<script src="js/axios-0.18.0.js"></script>
+<script>
+    axios({
+        method:"get",
+        url:"",
+        data:"username=zhangsan"
+    }).then(function(resp){
+        alert(resp.data);//响应数据由url除输出流 resp.getWriter().write("");
+    })
+
+</script>
+
+</body>
+
+
+</html>
